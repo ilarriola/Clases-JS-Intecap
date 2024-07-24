@@ -1,5 +1,5 @@
-let numero1 = parseFloat(prompt("Ingrese el primer numero: "));
-let numero2 = parseFloat(prompt("Ingrese el segundo numero: "));
+let numero1 = Number(prompt("Ingrese el primer numero: "));
+let numero2 = Number(prompt("Ingrese el segundo numero: "));
 alert("se mostrara la suma, resta, multiplicacion y division en la consola.");
 
 let suma = numero1 + numero2;
