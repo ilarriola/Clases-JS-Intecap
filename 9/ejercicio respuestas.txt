@@ -1,0 +1,42 @@
+---ejercicio 1---
+
+tienes la siguiente variable con un arreglo de valores
+
+locations= ["North", "south", "east", "west",]
+
+Respuesta del emparejamiento de la imagen
+
+1 north, south, east, west, HQ  --- Push
+
+2 north south east --- pop
+ 
+3 south east west --- shift
+
+4 HQ north south east west --- unshift
+
+--- ejercicio 2 ---
+respuestas
+
+// opcion 3
+for (i = 1; i < itemList.length; i++)
+
+// opcion 4
+document.getElementById("list).value += itemList[i] + "<p>";
+
+
+
+--- ejercicio 3 ---
+
+var array = [20, 40, 60, 80];
+
+escribe el codigo siguiente para manipular la matriz
+array.shift();
+array.pop();
+array.push (10);
+array.unshift(100);
+
+
+
+respuestas
+
+[100, 40, 60, 10];
